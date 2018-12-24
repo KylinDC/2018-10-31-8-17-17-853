@@ -1,4 +1,4 @@
-import { Person } from "./person";
+import Person from "./person";
 
 class Student extends Person {
   constructor(id, name, age, klass) {
@@ -16,4 +16,4 @@ class Student extends Person {
   }
 }
 
-export { Student };
+export default Student;

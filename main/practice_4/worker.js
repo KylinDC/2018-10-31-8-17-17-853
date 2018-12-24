@@ -1,4 +1,4 @@
-import { Person } from "./person.js"
+import Person from "./person.js"
 
 class Worker extends Person {
   constructor(name, age) {
@@ -10,4 +10,4 @@ class Worker extends Person {
   }
 }
 
-export { Worker };
+export default Worker;
